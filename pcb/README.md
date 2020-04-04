@@ -1,15 +1,15 @@
 # GameBoy Console PCB
-<img src="pcb_top.png" width="380"><img src="pcb_bottom.png" width="380"><img src="pcb_switch.png" width="100">
+<img src="img/pcb_top.png" width="380"><img src="img/pcb_bottom.png" width="380"><img src="img/pcb_switch.png" width="100">
 
 The GameBoy Console utilizes a custom PCB connected to the GPIO of a Raspberry Pi to help interface with GameBoy, GameBoy Color and GameBoy Advance cartridges. The PCB also includes space for an RF module to help connect to different wireless controllers.
 
 ## Schematic Overview
 The circuitry consists primarily of two GPIO expander chips (MCP23S17T) to both reduce GPIO requirements and allow for easier logic shifting from 3.3 to 5 volts. There are two ICs (SN74LV1T125 and SN74LVC125A) which buffer the data signals coming from and to the Raspberry Pi. There are two additional ICs (LM66100 and DMP2240UDM) which help to switch the logic level and control power to the connected cartridge.
-![Schematic](pcb_schematic.png)
+![Schematic](img/pcb_schematic.png)
 
 ## Assembly
-The gerber files for the main PCB can be found [here](pcb_gerber.zip) and the detector switch PCB gerber files can be found [here](pcb_switch_gerber.zip). Note that the detector switch is first soldered to its own PCB and then soldered to the main PCB. Refer to the following diagram for how to assemble the PCB. 
-![Assembly](pcb_parts.jpg)
+The gerber files for the main PCB can be found [here](gerber/pcb_gerber.zip) and the detector switch PCB gerber files can be found [here](gerber/pcb_switch_gerber.zip). Note that the detector switch is first soldered to its own PCB and then soldered to the main PCB. Refer to the following diagram for how to assemble the PCB. 
+![Assembly](img/pcb_parts.jpg)
 
 ## Parts
 | Part | Footprint | Qty | Link |
