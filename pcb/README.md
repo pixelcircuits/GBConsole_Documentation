@@ -1,2 +1,29 @@
-# Readme
-Readme template
+# GameBoy Console PCB
+<img src="pcb_top.png" width="380"><img src="pcb_bottom.png" width="380"><img src="pcb_switch.png" width="100">
+
+The GameBoy Console utilizes a custom PCB connected to the GPIO of a Raspberry Pi to help interface with GameBoy, GameBoy Color and GameBoy Advance cartridges. The PCB also includes space for an RF module to help connect to different wireless controllers.
+
+## Schematic Overview
+The circuitry consists primarily of two GPIO expander chips (MCP23S17T) to both reduce GPIO requirements and allow for easier logic shifting from 3.3 to 5 volts. There are two ICs (SN74LV1T125 and SN74LVC125A) which buffer the data signals coming from and to the Raspberry Pi. There are two additional ICs (LM66100 and DMP2240UDM) which help to switch the logic level and control power to the connected cartridge.
+![Schematic](pcb_schematic.png)
+
+## Assembly
+The gerber files for the main PCB can be found [here](pcb_gerber.zip) and the detector switch PCB gerber files can be found [here](pcb_switch_gerber.zip). Note that the detector switch is first soldered to its own PCB and then soldered to the main PCB. Refer to the following diagram for how to assemble the PCB. 
+![Assembly](pcb_parts.jpg)
+
+## Parts
+| Part | Footprint | Qty | Link |
+| --- | --- | --- | --- |
+| MCP23S17T | SSOP-28 | 2 | [mouser](https://www.mouser.com/ProductDetail/579-MCP23S17T-E-SS) |
+| SN74LV1T125 | SOT-23-5 | 1 | [mouser](https://www.mouser.com/ProductDetail/595-74LV1T125DBVRG4) |
+| SN74LVC125A | TSSOP-14 | 1 | [mouser](https://www.mouser.com/ProductDetail/595-SN74LVC125APWR) |
+| LM66100 | SC70-6 | 1 | [mouser](https://www.mouser.com/ProductDetail/595-LM66100DCKT) |
+| DMP2240UDM | SOT-26-6 | 1 | [mouser](https://www.mouser.com/ProductDetail/621-DMP2240UDM-7) |
+| HDP001L (Switch) | SMT | 1 | [mouser](https://www.mouser.com/ProductDetail/611-HDP001L) |
+| LED 2MM | Through Hole | 1 | [ebay](https://www.ebay.com/itm/1-8mm-2mm-3mm-5mm-8mm-10mm-LED-Diodes-Diffused-White-Red-Blue-Lights-Lamp-Blub/123839145932) |
+| GBA Cartridge Connector | SMT | 1 | [ebay](https://www.ebay.com/itm/For-Nintendo-DS-NDS-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/323815654861) |
+| NRF24L01+ | SMT | 1 | [ebay](https://www.ebay.com/itm/NRF24L01-SMD-Wireless-Transceiver-Module-1-9-3-6V-1-27-2-4-GHz-MM-Mini-Board/233433878914) |
+| CAP 0.1uF | 0603 | 3 | |
+| CAP 1uF | 1206 | 2 | |
+| RES 10k | 1206 | 2 | |
+| RES 1k | 1206 | 1 | |
