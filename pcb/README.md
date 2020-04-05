@@ -27,3 +27,7 @@ The gerber files for the main PCB can be found [here](gerber/pcb_gerber.zip) and
 | CAP 1uF | 1206 | 2 | |
 | RES 10k | 1206 | 2 | |
 | RES 1k | 1206 | 1 | |
+
+## Wiring to Raspberry Pi
+The PCB is designed to sit off to the side of the Raspberry Pi GPIO with jumper wires soldered to the corresponding pads. Note that it is a good idea to make the connections while the boards are seated in the case to make sure it will fit. Not all the pads are use at this time so some of them can be skipped. Refer to the following diagram for how the connections should be made.
+![Wiring to Raspberry Pi](img/pcb_connections.jpg)
