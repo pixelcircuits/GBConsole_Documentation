@@ -26,6 +26,9 @@
 ## 1. Overview <a name="Overview"></a>
 The GameBoy Console is an emulator that plays physical GameBoy, GameBoy Color and GameBoy Advance cartridges on your TV! The goal of this project is to provide an inexpensive solution for revisiting beloved GameBoy games on the big screen and help preserve cartridge save data. Additionally, the system hardware supports connecting to the [Wireless Gameboy Controller](https://shop.insidegadgets.com/product/wireless-gameboy-controller//) cartridge to enable playing on your TV while using your Gameboy as a controller!
 
+<img src="img/gbconsole_scn2.jpg" width="400"/><img src="img/gbconsole_img1.jpg" width="400"/>
+<img src="img/gbconsole_dev2.jpg" width="400"/><img src="img/gbconsole_scn4.jpg" width="400"/>
+
 ### Connecting Cartridges <a name="Overview_ConnectingCartridges"></a>
 The cartridge connector supports GameBoy, GameBoy Color and GameBoy Advance cartridges. Only when the status LED is on is the cartridge receiving power. When the status LED is off, you are free to connect and disconnect cartridges. The system runs on a syncing concept where cartridges are cloned onto the system and put into a virtual catalog. The cartridge then no longer needs to be connected to play and only needs to be connected to transfer updated save data back to the cartridge. Similarly, if cartridge save data has been updated, running the sync process allows for the system save data to be updated to the cartridge state.
 
@@ -46,6 +49,8 @@ Currently, fast GameBoy Advance emulation requires that you provide a GBA bios f
 The GameBoy Console supports the following controller options.
 
 ### Keyboard <a name="Controls_Keyboard"></a>
+<img src="img/controller_keyboard.jpg" width="400"/>
+
 The most straight forward controller option is a standard keyboard connected to the USB port. Refer to the following chart for the keyboard key mapping.
 
 | Up       | Down       | Left       | Right       | Select      | Start | A     | B     | L     | R     |
@@ -58,7 +63,9 @@ The most straight forward controller option is a standard keyboard connected to 
 |:---- |:------------------ |:------------------ |:---------- |:---------- |:------------ |:----- |
 | Esc  | F7                 | F6                 | F2         | F4         | Space        | P Key | 
 
-### 8bitdo <a name="Controls_8bitdo"></a>
+### 8BitDo <a name="Controls_8bitdo"></a>
+<img src="img/controller_8bitdo.jpg" width="400"/>
+
 Currently, the only controllers supported are the [SN30](https://www.8bitdo.com/sn30-gp/) and [SN30 Pro](https://www.8bitdo.com/sn30-pro-g-classic-or-sn30-pro-sn/) from 8BitDo. These can be plugged into the USB port or optionally connected via bluetooth (see [Settings](#Settings)). Holding the X key enables the use of the following hotkeys.
 
 | Exit    | Save Slot Increase | Save Slot Decrease | Save State | Load State | Fast Forward | Pause    |
@@ -66,7 +73,9 @@ Currently, the only controllers supported are the [SN30](https://www.8bitdo.com/
 | X+Start | X+Right            | X+Left             | X+Up       | X+Down     | X+A          | X+Select |
 
 
-### Wireless Game Receiver <a name="Controls_WirelessGameReceiver"></a>
+### Wireless Gameboy Controller <a name="Controls_WirelessGameReceiver"></a>
+<img src="img/controller_wirelessgameboycontroller.jpg" width="400"/>
+
 The GameBoy Console also supports connecting to the [Wireless Gameboy Controller](https://shop.insidegadgets.com/product/wireless-gameboy-controller//) from insideGadgets. Make sure the controller is set to its defaults and it should connect automatically. Hotkeys can only be used from a different connected controller or keyboard. To exit a game with this controller, simply hold down A+B+L+R+Start+Select.
 
 ## 3. Cartridge <a name="Cartridge"></a>
@@ -98,6 +107,8 @@ Selecting any of the cartridges in the catalog with the A button will begin play
 
 ### Delete <a name="Catalog_Delete"></a>
 To remove a backed up cartridge from the catalog simply navigate to it and then hold down the B button. You will be prompted with a confirmation that you want to remove all data related to this cartridge from the system.
+
+<img alt="Delete Dialog" src="img/dialog_delete.png" width="500"/>
 
 ## 5. Settings <a name="Settings"></a>
 The settings section of the menu can be opened by selecting the settings icon <img src="img/icon_settings.png" width="18"/> at the top of the system menu. This section allows you to configure the following system attributes.
