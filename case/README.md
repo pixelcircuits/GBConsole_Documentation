@@ -1,17 +1,17 @@
 # GameBoy Console Case
-<img src="img/GBConsoleCase_1.jpg" width="280"><img src="img/GBConsoleCase_2.jpg" width="280"><img src="img/GBConsoleCase_3.jpg" width="280">
+<img src="img/GBConsoleCase_1.jpg" width="280" hspace="2"/><img src="img/GBConsoleCase_2.jpg" width="280" hspace="2"/><img src="img/GBConsoleCase_3.jpg" width="280" hspace="2"/>
 
 The GameBoy Console was designed to fit nicely into a 3D printed case. The case consists of two main parts (body and bottom).
 
 ## Case Body
 The case body is split into two parts (top and body) to make printing more manageable. These two pieces should be glued together after printing. If printing in ABS, you can use a small paint brush to brush acetone across the join line to bond the parts and make the part stronger.
-| <img src="stl/GBConsole_Body.png" width="400"> | <img src="stl/GBConsole_Top.png" width="400"> |
+| <img src="stl/GBConsole_Body.png" width="400"/> | <img src="stl/GBConsole_Top.png" width="400"/> |
 | --- | --- |
 | [GBConsole_Body.stl](stl/GBConsole_Body.stl) | [GBConsole_Top.stl](stl/GBConsole_Top.stl) |
 
 ## Case Bottom
 The bottom of the case prints in one piece. Rubber feet should be applied to the four corners to elevate the case and allow airflow to carry away heat.
-| <img src="stl/GBConsole_Bottom.png" width="400"> |
+| <img src="stl/GBConsole_Bottom.png" width="400"/> |
 | --- |
 | [GBConsole_Bottom.stl](stl/GBConsole_Bottom.stl) |
 
