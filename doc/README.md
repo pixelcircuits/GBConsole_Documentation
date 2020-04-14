@@ -26,8 +26,7 @@
 ## 1. Overview <a name="Overview"></a>
 The GameBoy Console is an emulator that plays physical GameBoy, GameBoy Color and GameBoy Advance cartridges on your TV! The goal of this project is to provide an inexpensive solution for revisiting beloved GameBoy games on the big screen and help preserve cartridge save data. Additionally, the system hardware supports connecting to the [Wireless Gameboy Controller](https://shop.insidegadgets.com/product/wireless-gameboy-controller//) cartridge to enable playing on your TV while using your Gameboy as a controller!
 
-<img src="img/gbconsole_scn2.jpg" width="400"/><img src="img/gbconsole_img1.jpg" width="400"/>
-<img src="img/gbconsole_dev2.jpg" width="400"/><img src="img/gbconsole_scn4.jpg" width="400"/>
+<img src="img/gbconsole_scn2.jpg" width="400" hspace="4"/><img src="img/gbconsole_img1.jpg" width="400" hspace="4"/><img src="img/gbconsole_dev2.jpg" width="400" hspace="4"/><img src="img/gbconsole_scn4.jpg" width="400" hspace="4"/>
 
 ### Connecting Cartridges <a name="Overview_ConnectingCartridges"></a>
 The cartridge connector supports GameBoy, GameBoy Color and GameBoy Advance cartridges. Only when the status LED is on is the cartridge receiving power. When the status LED is off, you are free to connect and disconnect cartridges. The system runs on a syncing concept where cartridges are cloned onto the system and put into a virtual catalog. The cartridge then no longer needs to be connected to play and only needs to be connected to transfer updated save data back to the cartridge. Similarly, if cartridge save data has been updated, running the sync process allows for the system save data to be updated to the cartridge state.
