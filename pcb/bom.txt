@@ -9,6 +9,6 @@ LED 2MM	Through Hole	1	https://www.ebay.com/itm/1-8mm-2mm-3mm-5mm-8mm-10mm-LED-D
 GBA Cartridge Connector	SMT	1	https://www.ebay.com/itm/For-Nintendo-DS-NDS-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/323815654861
 NRF24L01+	SMT	1	https://www.ebay.com/itm/NRF24L01-SMD-Wireless-Transceiver-Module-1-9-3-6V-1-27-2-4-GHz-MM-Mini-Board/233433878914
 CAP 0.1uF	0603	3	
-CAP 1uF	1206	2	
-RES 10k	1206	2	
-RES 1k	1206	1	
+CAP 1uF	0805	2	
+RES 10k	0603	2	
+RES 1k	0603	1	
