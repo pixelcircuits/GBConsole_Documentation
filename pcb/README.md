@@ -24,9 +24,9 @@ The gerber files for the main PCB can be found [here](gerber/pcb_gerber.zip) and
 | GBA Cartridge Connector | SMT | 1 | [ebay](https://www.ebay.com/itm/For-Nintendo-DS-NDS-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/323815654861) |
 | NRF24L01+ | SMT | 1 | [ebay](https://www.ebay.com/itm/NRF24L01-SMD-Wireless-Transceiver-Module-1-9-3-6V-1-27-2-4-GHz-MM-Mini-Board/233433878914) |
 | CAP 0.1uF | 0603 | 3 | |
-| CAP 1uF | 1206 | 2 | |
-| RES 10k | 1206 | 2 | |
-| RES 1k | 1206 | 1 | |
+| CAP 1uF | 0805 | 2 | |
+| RES 10k | 0603 | 2 | |
+| RES 1k | 0603 | 1 | |
 
 ## Wiring to Raspberry Pi
 The PCB is designed to sit off to the side of the Raspberry Pi GPIO with jumper wires soldered to the corresponding pads. Note that it is a good idea to make the connections while the boards are seated in the case to make sure it will fit. Not all the pads are use at this time so some of them can be skipped. Refer to the following diagram for how the connections should be made.
