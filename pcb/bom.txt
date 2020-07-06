@@ -5,6 +5,7 @@ SN74LVC125A	TSSOP-14	1	https://www.mouser.com/ProductDetail/595-SN74LVC125APWR
 LM66100	SC70-6	1	https://www.mouser.com/ProductDetail/595-LM66100DCKT
 DMP2240UDM	SOT-26-6	1	https://www.mouser.com/ProductDetail/621-DMP2240UDM-7
 HDP001L (Switch)	SMT	1	https://www.mouser.com/ProductDetail/611-HDP001L
+SKRTLAE010 (Button)	SMT	1	https://www.mouser.com/ProductDetail/ALPS/SKRTLAE010?qs=4nKZKRgDHlm3FhoHNgWQ9A%3D%3D
 LED 2MM	Through Hole	1	https://www.ebay.com/itm/1-8mm-2mm-3mm-5mm-8mm-10mm-LED-Diodes-Diffused-White-Red-Blue-Lights-Lamp-Blub/123839145932
 GBA Cartridge Connector	SMT	1	https://www.ebay.com/itm/For-Nintendo-DS-NDS-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/323815654861
 NRF24L01+	SMT	1	https://www.ebay.com/itm/NRF24L01-SMD-Wireless-Transceiver-Module-1-9-3-6V-1-27-2-4-GHz-MM-Mini-Board/233433878914
